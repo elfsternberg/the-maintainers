@@ -1,0 +1,22 @@
+table#sittertable td img {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+table#sittertable td {
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+#paginator ul {
+    display: none;
+}
+
+#paginator li {
+    display: inline;
+}
+    
+#range {
+    display: none;
+}
+

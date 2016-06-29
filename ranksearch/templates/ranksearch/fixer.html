@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+ <h1>Fixer: {{ fixer.name }}</h1>
+ <div><img src="{{ fixer.image_url }}" /></div>
+ <h3>Jobs: </h3>
+ <ul>
+   {% for job in jobs %}
+   <li>Worked on {% for property in job.properties.all %}<a href="{% url "property" property.slug %}">{{ property.name }}</a>, {% endfor %} on {{ job.start_date }}.  Rated {{ job.rating }}</li>
+   {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+  <h1>{{ owner.name }}</h1>
+  <div><img src="{{ owner.image_url }}" /></div>
+ <h3>Owns: </h3>
+ <ul>
+   {% for property in properties %}
+   <li><a href="{% url "property" property.slug %}">{{property.name}}</a></li>
+   {% endfor %}
+ </ul>
+{% endblock %}
