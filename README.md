@@ -52,10 +52,10 @@ The problem:
 * (sum ratings / num sits) for 10 o more jobs
 
 Tables:
-    Property Owners
-    Properties (owner_id)
-    Maintainers 
-    Jobs (maintainer_id, property_id, start_date, end_date, rating, comments)
+*    Property Owners
+*    Properties (owner_id)
+*    Maintainers 
+*    Jobs (maintainer_id, property_id, start_date, end_date, rating, comments)
 
 I'm big on slugs.  I'm *very* big on navigable and bookmarkable URLs.
 If a property owner comes to like a particular maintainer, that
