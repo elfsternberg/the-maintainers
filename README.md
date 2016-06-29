@@ -10,7 +10,7 @@ provided from a CSV file.
 This script requires Python3 and Sqlite.
 
 1. Create a new virtual environment:
-
+```
     $ virtualenv --python=python3 handy
     $ cd handy
     $ source bin/activate ;# this is the bash instruction; use what your env demands
@@ -22,7 +22,7 @@ This script requires Python3 and Sqlite.
     $ ./manage.py migrate ranksearch 0001_initial
     $ ./manage.py recoverhandy
     $ ./manage.py runserver
-
+```
 "Recoverhandy" is a custom command that imports the CSV into the
 database, creating owners, properties, maintainers, and jobs
 progressively.  It does a lot of 'get\_or\_create' commands, so on
