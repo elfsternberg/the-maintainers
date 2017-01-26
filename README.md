@@ -35,6 +35,10 @@ After entering the 'handy' app home, you can also
 This will run a simple unit test that asserts both the database
 structure and client status are adequate.
 
+# Status
+
+**July 3, 2016**: This project is **completed**.  No new features are
+being considered.  Bug reports will (probably) not be addressed.
 
 # Process
 
