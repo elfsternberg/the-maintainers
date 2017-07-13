@@ -61,10 +61,12 @@ Tables:
 *    Maintainers 
 *    Jobs (maintainer_id, property_id, start_date, end_date, rating, comments)
 
-I'm big on slugs.  I'm *very* big on navigable and bookmarkable URLs.
-If a property owner comes to like a particular maintainer, that
-maintainer should have their own URL the owner can always navigate to,
-to see if the maintainer is available.
+I'm big on slugs.  I'm *very* big on navigable and bookmarkable URLs.  I
+believe URLS are UX (user experience), and that readable URLs
+communicate to the user knowledge and reassurance that both parties know
+what they're doing.  If a property owner comes to like a particular
+maintainer, that maintainer should have their own easy-to-understand URL
+the owner can always navigate to, to see if the maintainer is available.
 
 I know it's bad form to write your own pagination kit, but I couldn't
 help myself; it's a bit of showing off, especially with the history
